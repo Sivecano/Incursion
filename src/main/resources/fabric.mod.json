@@ -15,12 +15,12 @@
   },
 
   "license": "",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/invmod/meta/logo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "incursion.ExampleMod"
+      "incursion.Incursion"
     ]
   },
   "mixins": [
