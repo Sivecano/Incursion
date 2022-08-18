@@ -18,7 +18,7 @@ public class IItems
 
     public static void registerItems()
     {
-        Registry.register(Registry.ITEM, new Identifier("catalyst", "catalyst"), CATALYST);
+        Registry.register(Registry.ITEM, new Identifier("catalysts", "catalyst"), CATALYST);
     }
 
 }
