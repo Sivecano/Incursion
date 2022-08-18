@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "incursion",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Incursion Mod",
+  "description": "So you think your base is tough, do you?",
   "authors": [
-    "Me!"
+    "Sivecano",
+    "KalokaK"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Sivecano/Incursion",
+    "sources": "https://github.com/Sivecano/Incursion"
   },
 
-  "license": "CC0-1.0",
+  "license": "",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "incursion.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "incursion.mixins.json"
   ],
 
   "depends": {
