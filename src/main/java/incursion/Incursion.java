@@ -37,5 +37,6 @@ public class Incursion implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("incursion", "nexus"), BLOCK_NEXUS);
         Registry.register(Registry.ITEM, new Identifier("incursion", "nexus"),
                 new BlockItem(BLOCK_NEXUS, new FabricItemSettings().group(ItemGroup.MISC)));
+        IItems.registerItems();
     }
 }
